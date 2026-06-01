@@ -19,7 +19,7 @@ class Parameters(BaseModel):
     tenants_blacklist_json_path: str = "data/tenants_blacklist.json"
     apartment_events_json_path: str = "data/apartment_events.json"
 
-    max_transfer_pln: float = 4500.0
+    max_transfer_pln: float = 0.0
     max_refund_pln: float = 2500.0
 
 
